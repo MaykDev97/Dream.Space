@@ -30,7 +30,7 @@ export const Team = () => {
     };
 
     return (
-        <section className="skill" id="skills">
+        <section className="skill" id="Our-Team">
             <div className="container">
                 <div className="row">
                     <div className="col-12 skill-separator">

@@ -43,7 +43,7 @@ export const WhyUS = () => {
   ];
 
   return (
-    <section className="project" id="projects">
+    <section className="project" id="Why-Choose-Us">
       <Container>
         <Row>
           <Col size={12}>
