@@ -58,7 +58,7 @@ export const Banner = () => {
                 <span className="tagline ">Welcome to our Portfolio</span>
                 <h1 className="wrap-word">{`Hi! we are the </Dream.Space> team. | `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p className="wrap-word">Do you need a reliable and experienced development team for your next project? Do not look any further! On our team, we pride ourselves on delivering high-quality, custom solutions to meet your development needs. With years of experience in web and mobile development, we are dedicated to helping you take your project to the next level. Contact us today to learn more about how we can help you.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect ! <ArrowRightCircle size={25} /></button>
+                  
               </div>}
             </TrackVisibility>
           </Col>
