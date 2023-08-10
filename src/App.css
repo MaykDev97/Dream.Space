@@ -27,6 +27,16 @@ html {
   scroll-padding-top: 75px;
 }
 
+.wrap-word {
+  white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+  white-space: -webkit-pre-wrap; /* Chrome & Safari */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+  word-break: break-all;
+  white-space: normal;
+}
+
 body {
   font-weight: 400;
   overflow-x: hidden;
@@ -247,6 +257,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 15px;
   right: 15px;
   z-index: 999;
+  
+  cursor: pointer;
 }
 
 /************ Banner Css ************/
@@ -356,6 +368,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill-slider .item img {
   width: 50%;
   margin: 0 auto 15px auto;
+}
+.skill-separator{
+margin: 0 0 60px 0;
 }
 .background-image-left {
   top: 28%;

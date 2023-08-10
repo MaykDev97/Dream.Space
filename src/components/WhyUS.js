@@ -7,24 +7,9 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Projects = () => {
+export const WhyUS = () => {
 
   const projects = [
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
     {
       title: "Business Startup",
       description: "Design & Development",
@@ -65,7 +50,7 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <h2 className="wrap-word">Projects</h2>
+                  <h2 className="wrap-word">Why Choose Us</h2>
                   <p className="wrap-word">Our development team has created diverse and successful projects, including design and development of custom websites, web applications, e-commerce solutions, content management systems (CMS) and more. We pride ourselves on our personalized approach and our ability to work closely with our clients to create innovative and effective solutions. If you're looking for a development team with advanced technical skills and experience, contact us today to see how we can help you achieve your goals!</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     
@@ -84,6 +69,7 @@ export const Projects = () => {
                           }
                         </Row>
                       </Tab.Pane>
+              
                     </Tab.Content>
                   </Tab.Container>
                 </div>}
@@ -95,3 +81,4 @@ export const Projects = () => {
     </section>
   )
 }
+
