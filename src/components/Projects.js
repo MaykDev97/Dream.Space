@@ -66,7 +66,7 @@ export const Projects = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2 className="wrap-word">Projects</h2>
-                  <p className="wrap-word">Our development team has created diverse and successful projects, including design and development of custom websites, web applications, e-commerce solutions, content management systems (CMS) and more. We pride ourselves on our personalized approach and our ability to work closely with our clients to create innovative and effective solutions. If you're looking for a development team with advanced technical skills and experience, contact us today to see how we can help you achieve your goals!</p>
+                  <p className="wrap-word">Our development team has created diverse projects, including design and development of custom websites, web applications, e-commerce solutions and more. We pride ourselves on our personalized approach and our ability to work closely with our clients to create innovative and effective solutions. If you're looking for a development team with advanced technical skills and experience, contact us today to see how we can help you achieve your goals!</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     
                     <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>

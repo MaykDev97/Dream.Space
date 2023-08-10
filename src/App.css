@@ -254,8 +254,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .icon-whatasapp {
   position: fixed;
-  bottom: 15px;
-  right: 15px;
+  bottom: 35px;
+  right: 20px;
   z-index: 999;
   
   cursor: pointer;
